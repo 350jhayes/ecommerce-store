@@ -24,10 +24,12 @@ const GalleryTab: React.FC<GalleryTabProps> = ({
                             className="object-cover object-center"
                         />
                     </span>
-                    <span className={cn(
-                        "absolute inset-0 rounded-md ring-2 ring-offset-2",
-                        selected ? "ring-black" : "ring-transparent"
-                    )} />
+                    <span
+                        className={cn(
+                            "absolute inset-0 rounded-md ring-2 ring-offset-2",
+                            selected ? "ring-black" : "ring-transparent"
+                        )}
+                    />
                 </div>
             )}
         </Tab>
